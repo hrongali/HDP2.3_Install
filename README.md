@@ -112,4 +112,18 @@ http://docs.hortonworks.com/HDPDocuments/Ambari-2.2.0.0/bk_ambari_reference_guid
 
 15) Smoke tests
 
-14) Standup Standalone Ambari Servers on the 2 edge nodes
+14) Standup Standalone Ambari Servers on the 2 edge nodes.
+
+http://docs.hortonworks.com/HDPDocuments/Ambari-2.2.0.0/bk_ambari_views_guide/content/ch_using_ambari_views.html
+
+
+
+**Kerberizing:**
+
+Kerberise cluster
+
+Kerberize AMbari server - http://docs.hortonworks.com/HDPDocuments/Ambari-2.1.2.0/bk_Ambari_Security_Guide/content/_optional_set_up_kerberos_for_ambari_server.html
+
+Kerberize the Other Web Ui endpoints - http://docs.hortonworks.com/HDPDocuments/Ambari-2.1.2.0/bk_Ambari_Security_Guide/content/ch_enable_spnego_auth_for_hadoop.html
+
+
