@@ -116,9 +116,18 @@ http://docs.hortonworks.com/HDPDocuments/Ambari-2.2.0.0/bk_ambari_reference_guid
 
 http://docs.hortonworks.com/HDPDocuments/Ambari-2.2.0.0/bk_ambari_views_guide/content/ch_using_ambari_views.html
 
+**AD Integration:**
+
+1) Hadoop Group Mapping for LDAP - http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.4/bk_installing_manually_book/content/setting_up_hadoop_group_mappping_for_ldap.html
+
+
+
+
 
 
 **Kerberizing:**
+
+Install JCE - http://docs.hortonworks.com/HDPDocuments/Ambari-2.2.0.0/bk_Ambari_Security_Guide/content/_distribute_and_install_the_jce.html
 
 Kerberise cluster
 
