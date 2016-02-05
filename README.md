@@ -121,6 +121,32 @@ http://docs.hortonworks.com/HDPDocuments/Ambari-2.2.0.0/bk_ambari_views_guide/co
 1) Hadoop Group Mapping for LDAP - http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.4/bk_installing_manually_book/content/setting_up_hadoop_group_mappping_for_ldap.html
 
 
+**Ranger Install ***
+
+http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.4/bk_Ranger_Install_Guide/content/ch_overview_ranger_ambari_install.html
+
+*Prerequisites:*
+
+Solr Installation - http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.4/bk_Ranger_Install_Guide/content/ch_install_solr.html
+
+Do we need Hadoop Hadoop Group mapping ? - http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.4/bk_installing_manually_book/content/setting_up_hadoop_group_mappping_for_ldap.html
+
+MYSQL Access is necessary from Ranger Host. Ranger install will create two new users rangeradmin and rangerlogger. It will create two new databases ranger and ranger_audit
+
+Configure MySQL for Ranger - http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.4/bk_Ranger_Install_Guide/content/configuring_mysql_for_ranger.html
+
+
+
+**KNOX**
+
+In HDFS Configs, add hadoop.proxyuser.knox.groups=*
+
+add hadoop.proxyuser.knox.hosts=sandbox.hortonworks.com
+
+Restaert HDFS
+
+
+
 
 
 
